@@ -1,9 +1,12 @@
 import { NextPage } from 'next'
+import { Base } from 'src/components/layout/Base'
 
 const Home: NextPage = () => {
   return (
     <>
-      <div />
+      <Base>
+        <p>メインコンテンツ</p>
+      </Base>
     </>
   )
 }

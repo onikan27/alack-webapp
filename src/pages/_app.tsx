@@ -3,6 +3,7 @@ import { AppProps } from 'next/app'
 import { ApolloProvider } from '@apollo/client'
 import { client } from 'src/lib/apolloClient'
 import { ChakraProvider } from '@chakra-ui/react'
+import '../styles/global.css'
 
 const MyApp: NextPage<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
