@@ -14,6 +14,7 @@ export const Sidebar = ({ workspaceName }: props) => {
       w="281px"
       h="100vh"
       overflow="scroll"
+      cursor="pointer"
     >
       <Box
         borderColor={colors.border.main}
